@@ -80,7 +80,8 @@ button {
     }
 
     #pl1 {
-      position:absolute; top:520px; left:35%; width:43%; height:60px; 
+      font-size: 25px;
+      position:absolute; top:520px; left:30%; width:43%; height:60px; 
     }
     
     #mycanvas {
