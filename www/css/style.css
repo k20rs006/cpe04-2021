@@ -80,6 +80,7 @@ button {
     }
 
     #pl1 {
+      color: greenyellow;
       font-size: 25px;
       position:absolute; top:520px; left:30%; width:43%; height:60px; 
     }
