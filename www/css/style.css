@@ -25,6 +25,11 @@ button {
   color: blue;
 }
 
+#btnD {
+  background-color: whitesmoke;
+  color: black;
+}
+
 #remain {
   font-weight: bold;
 }
