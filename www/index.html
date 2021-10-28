@@ -182,7 +182,6 @@
     function btnAClick(e){
         active = true;
         startTime = new Date();
-        $("#pl1").html("please wait");
     }
 
     // ButtonBがクリックされた時の処理
@@ -209,8 +208,13 @@
         $("#remain").html("残り時間： " + rest);
         analog(rest);
 
+        if(rest > 0) {
+          $("#pl1").html("please wait");
+        }
+
         if(rest <= 0) {
           active = false;
+          $("#pl1").html("-------------");
           alarm();
         }
       }
@@ -228,7 +232,7 @@
 
     <div id="remain">Remaining time</div>
     <div id="time">Time</div>
-    <div id="pl1">----------------</div>
+    <div id="pl1">-------------</div>
     <button id="btnA">Start</button>  
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button>  
