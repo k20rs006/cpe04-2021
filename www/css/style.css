@@ -11,8 +11,18 @@ button {
 }
 
 #btnA {
-  background-color: yellow;
-  color: green;
+  background-color: skyblue;
+  color: blue;
+}
+
+#btnB {
+  background-color: skyblue;
+  color: blue;
+}
+
+#btnC {
+  background-color: skyblue;
+  color: blue;
 }
 
 #remain {
