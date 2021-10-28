@@ -182,6 +182,7 @@
     function btnAClick(e){
         active = true;
         startTime = new Date();
+        $("#pl1").html("please wait");
     }
 
     // ButtonBがクリックされた時の処理
@@ -197,8 +198,8 @@
         $("#time").html("経過時間： 0");
         $("#remain").html("残り時間： " + period);
     }
+
     
- 
     // 繰り返し実行する処理
     function timer(){  
       if(active) {
@@ -228,11 +229,9 @@
     <div id="remain">Remaining time</div>
     <div id="time">Time</div>
     <div id="pl1">----------------</div>
-    <div id="pl2">please wait</div>
     <button id="btnA">Start</button>  
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button>  
-    <button id="btnD">////</button>
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
 </body>
